@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+header{
+    position: fixed;
+    width: 100%;
+    font-family: 'Poppins';
+}
+main{
+    padding-top: 4rem;
+}
+
+footer{
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);;
+    padding: 1.5rem;
+    width:100%;
+
+
+    font-family: 'Poppins';
+}
+footer > div > p{
+    font-size: 1.25rem;
+    margin:0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+
+.headroom{
+    transition: transform .5s ease;
+}
+.headroom--pinned{
+    transform: translateY(0%);
+}
+.headroom--unpinned{
+    transform: translateY(-100%);
+}
